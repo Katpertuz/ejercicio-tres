@@ -5,4 +5,14 @@ display: flex;
 flex-direction: row;
 box-sizing: border-box;
 }
-
+.aside{
+width: 50%;
+height: 100vh;
+flex-direction: column;
+background-color: black;
+}
+  - Ancho: `50%`
+  - Alto: `100%` (equivale a `100vh`)
+  - *Composición interna (en columna):*
+    - **Fotografía Principal**: Alto: `60%` (equivale a `60vh`)
+    - **Caja de Marca (Logo y eslogan)**: Alto: `40%` (equivale a `40vh`)
