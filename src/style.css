@@ -3,8 +3,7 @@ width:100%;
 height: 100vh;
 display: flex;
 flex-direction: row;
-
-
+overflow: hidden;
 }
 .aside{
 width: 50%;
@@ -48,6 +47,17 @@ height: 40vh;
 .main{
     width: 50%;
     height: 100vh;
+}
 
+.header{
+    height: 15vh;
+}
+
+.section{
+    height: 70vh;  
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
 }
   
